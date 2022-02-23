@@ -63,10 +63,10 @@ export class LayoutComponent implements OnInit {
         this.desktopHeaderClass = 'desktop-header-1';
         switch (this.themeConfig.themeType) {
           case 'light':
-              this.desktopLogo = 'assets/images/logo-dark.svg';
+              this.desktopLogo = 'assets/images/logo_full.png';
             break;
           default:
-            this.desktopLogo = 'assets/images/logo.svg';
+            this.desktopLogo = 'assets/images/logo_full.png';
         }
         break;
       case 'collapsed':
@@ -78,7 +78,7 @@ export class LayoutComponent implements OnInit {
             this.desktopLogo = 'assets/images/logo-b-dark.svg';
             break;
           default:
-            this.desktopLogo = 'assets/images/logo-b-light.svg';
+            this.desktopLogo = 'assets/images/logo_full.png';
         }
         break;
       case 'horizontal':
@@ -87,10 +87,10 @@ export class LayoutComponent implements OnInit {
         switch (this.themeConfig.themeType) {
           case 'light':
             this.horizontalNavClass = 'navbar-light';
-            this.desktopLogo = 'assets/images/logo-dark.svg';
+            this.desktopLogo = 'assets/images/logo_full.png';
             break;
           default:
-            this.desktopLogo = 'assets/images/logo.svg';
+            this.desktopLogo = 'assets/images/logo_full.png';
         }
         break;
     }
