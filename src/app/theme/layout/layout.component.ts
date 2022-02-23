@@ -43,7 +43,7 @@ export class LayoutComponent implements OnInit {
   public desktopHeaderClass: string = 'desktop-header-1';
   public horizontalNavClass: string = 'navbar-dark';
 
-  public desktopLogo = 'assets/images/logo.svg';
+  public desktopLogo = 'assets/images/logo_full.png';
 
   public collapsedCard: string = 'collapsed';
 
