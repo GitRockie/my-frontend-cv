@@ -9,7 +9,9 @@
     <!-- logo image -->
     <div class="site-logo">
       <a routerLink="/">
+
         <img [src]="this.themeConfig.themeType === 'light' ? 'assets/images/logo_full.png' : 'assets/images/logo_full.png'" alt="logo" />
+
       </a>
     </div>
   </div>
@@ -19,7 +21,9 @@
   <div class="container">
     <nav class="navbar navbar-expand-lg" [ngClass]="horizontalNavClass">
       <a class="navbar-brand" routerLink="/">
+
         <img [src]="desktopLogo" alt="logo" />
+
       </a>
       <button (click)="collapsedCardToggle()" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNavDropdown" data-toggle="collapse" type="button">
         <span class="navbar-toggler-icon"></span>
@@ -79,7 +83,9 @@
   <!-- logo image -->
   <div class="site-logo">
     <a routerLink="/">
+
       <img [src]="desktopLogo" alt="logo" />
+
     </a>
   </div>
 
